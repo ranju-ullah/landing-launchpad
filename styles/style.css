@@ -1,0 +1,99 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+    
+
+    
+}
+/* Shared Styles */
+.btn-primary{
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+}
+/* Banner Styles */
+.banner-section{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    /* padding: 50px; */
+
+}
+.text-primary{
+    text-align: center;
+    margin-top: 200px;
+}
+.section-title{
+    font-size: 65px;
+    color: black;
+}
+.action{
+    display: flex;
+   justify-content: space-between;
+   margin-top:121px ;
+   margin-left: 150px;
+   margin-right: 150px;
+   /* max-width: 1140px; */
+}
+.image-border{
+    border-radius: 25px;
+}
+.action-title{
+    font-size: 42px;
+
+}
+.action-description{
+    font-size: 24px;
+    color: #252432;
+}
+.productive{
+    background-color: #d2d1df;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin: 50px 150px;
+    border-radius: 10px;
+}
+.productive-user-title{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.productive-user{
+    display: flex;
+    margin-top:121px ;
+   margin-left: 150px;
+   margin-right: 150px;
+   justify-content: space-around;
+   padding-bottom: 100px;
+  
+}
+.user-common-style{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.user-common-description{
+    font-size: 20px;
+}
